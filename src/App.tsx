@@ -8,7 +8,9 @@ function App() {
     <>
     <div>CS Colloquium Final Assignment</div>
     <button onClick={() => setCount(0)}>Reset BTN</button>
-
+    <button
+    onClick={() => setCount(count + 1)}
+    style={{backgroundColor: 'black', color: 'white'}}>+</button>
     </>
   )
 }
