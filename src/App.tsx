@@ -9,7 +9,7 @@ function App() {
   }, [count]);
 
   return (
-    <>
+    <div className='container'>
     <div className='title'>CS Colloquium Final Assignment</div>
     <div>{count}</div>
     <button
@@ -21,7 +21,7 @@ function App() {
     <button
     onClick={() => setCount(count + 1)}
     style={{backgroundColor: 'black', color: 'white'}}>+</button>
-    </>
+    </div>
   )
 }
 
