@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     <div>CS Colloquium Final Assignment</div>
+    <button onClick={() => setCount(0)}>Reset BTN</button>
 
     </>
   )
