@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <h3>CS Colloquium Final Assignment</h3>
+    <div className='title'>CS Colloquium Final Assignment</div>
     <div>{count}</div>
     <button
     onClick={() => setCount(count - 1)}
