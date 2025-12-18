@@ -11,7 +11,8 @@ function App() {
   return (
     <div className='container'>
     <div className='title'>CS Colloquium Final Assignment</div>
-    <div>{count}</div>
+    <div className='count'>{count}</div>
+    <div className='btn'>
     <button
     onClick={() => setCount(count - 1)}
     style={{backgroundColor: 'black', color: 'white'}}
@@ -21,6 +22,7 @@ function App() {
     <button
     onClick={() => setCount(count + 1)}
     style={{backgroundColor: 'black', color: 'white'}}>+</button>
+    </div>
     </div>
   )
 }
